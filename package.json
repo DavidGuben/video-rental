@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.4",
     "express": "^4.16.2",
+    "helmet": "^3.16.0",
     "joi": "^13.1.0",
     "mongoose": "^5.4.22"
   }
