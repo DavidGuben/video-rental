@@ -13,7 +13,7 @@ require('./startup/production')(app);
 app.use(express.static(path.join(__dirname, "client", "build")));
 
 app.get("*", (req, res) => {
-    const index = path.join(__dirname, "build", "client", "index.html");
+    const index = path.join(__dirname, "client", "build",  "index.html");
     res.sendFile(index);
 });
 const port = process.env.PORT || 3000;
