@@ -20,11 +20,10 @@ module.exports = function(app) {
   app.use('/api/users', users);
   app.use('/api/auth', auth);
   app.use('/api/returns', returns);
-
   app.use(error);
 
   // server static assets if in production
-  if(process.env.NODE_ENV === 'production') {
+  if (process.env.NODE_ENV === 'production') {
     // Set static folder
     app.use(express.static('client/build'));
 
