@@ -13,7 +13,8 @@ require('./startup/production')(app);
 app.use(express.static(path.join(__dirname, "client", "build")));
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+    const index = path.join(__dirname, "build", "index.html")
+    res.sendFile(index);
 });
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => winston.info(`Listening on port ${port}...`));
