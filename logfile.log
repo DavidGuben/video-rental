@@ -813,10 +813,3 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-02-15T23:30:18.657Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2018-02-15T23:30:18.919Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-02-15T23:30:18.926Z"}
-{"level":"info","message":"Listening on port 3000...","timestamp":"2019-04-08T13:50:56.144Z"}
-{"level":"info","message":"Connected to mongodb://localhost/video-rental...","timestamp":"2019-04-08T13:50:57.165Z"}
-{"level":"info","message":"Listening on port 3000...","timestamp":"2019-04-08T13:52:49.236Z"}
-{"level":"info","message":"Connected to mongodb://localhost/video-rental...","timestamp":"2019-04-08T13:52:50.261Z"}
-{"message":"Unexpected string in JSON at position 30","stack":"SyntaxError: Unexpected string in JSON at position 30\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\Owner\\Documents\\github\\video-rental\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at C:\\Users\\Owner\\Documents\\github\\video-rental\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (C:\\Users\\Owner\\Documents\\github\\video-rental\\node_modules\\raw-body\\index.js:224:16)\n    at done (C:\\Users\\Owner\\Documents\\github\\video-rental\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (C:\\Users\\Owner\\Documents\\github\\video-rental\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","expose":true,"statusCode":400,"status":400,"body":"{\n\t\"email\":\"david@gmail.com\"\n\t\"password\":\"test\"\n}","type":"entity.parse.failed","level":"error","timestamp":"2019-04-08T13:57:37.927Z"}
-{"level":"info","message":"Listening on port 3000...","timestamp":"2019-04-08T13:58:35.838Z"}
-{"level":"info","message":"Connected to mongodb://localhost/video-rental...","timestamp":"2019-04-08T13:58:36.863Z"}
